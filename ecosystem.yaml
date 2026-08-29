@@ -1,0 +1,17 @@
+# ecosystem.yaml — Kiwix Realm
+#
+# Repos from the Kiwix org (offline Wikipedia/content reader). Starts
+# with just kiwix-android; add more components here as needed.
+
+defaults:
+  gitOrg: https://github.com/kiwix
+
+identity:
+  agent_account: soloturn
+  co_authored_by: "Claude Sonnet 5"
+  # human_account is personal — set it in ecosystem.local.yaml, not here
+
+components:
+  kiwix-android:
+    tier: supporting
+    repo: https://github.com/kiwix/kiwix-android.git
