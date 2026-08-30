@@ -24,3 +24,6 @@ components:
   xapian:
     tier: supporting
     repo: https://github.com/xapian/xapian.git
+  kiwix-build:
+    tier: supporting
+    repo: https://github.com/kiwix/kiwix-build.git
