@@ -15,3 +15,12 @@ components:
   kiwix-android:
     tier: supporting
     repo: https://github.com/kiwix/kiwix-android.git
+  java-libkiwix:
+    tier: supporting
+    repo: https://github.com/kiwix/java-libkiwix.git
+  libzim:
+    tier: supporting
+    repo: https://github.com/openzim/libzim.git
+  xapian:
+    tier: supporting
+    repo: https://github.com/xapian/xapian.git
