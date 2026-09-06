@@ -1,7 +1,7 @@
 # ecosystem.yaml — Kiwix Realm
 #
-# Repos from the Kiwix org (offline Wikipedia/content reader). Starts
-# with just kiwix-android; add more components here as needed.
+# Repos from the Kiwix org (offline Wikipedia/content reader) and its
+# core dependencies. Add more components here as needed.
 
 defaults:
   gitOrg: https://github.com/kiwix
@@ -15,9 +15,27 @@ components:
   kiwix-android:
     tier: supporting
     repo: https://github.com/kiwix/kiwix-android.git
+  kiwix-android-branded:
+    tier: supporting
+    repo: https://github.com/kiwix/kiwix-android-branded.git
   java-libkiwix:
     tier: supporting
     repo: https://github.com/kiwix/java-libkiwix.git
+  libkiwix:
+    tier: supporting
+    repo: https://github.com/kiwix/libkiwix.git
+  kiwix-tools:
+    tier: supporting
+    repo: https://github.com/kiwix/kiwix-tools.git
+  kiwix-desktop:
+    tier: supporting
+    repo: https://github.com/kiwix/kiwix-desktop.git
+  kiwix-js:
+    tier: supporting
+    repo: https://github.com/kiwix/kiwix-js.git
+  kiwix-apple:
+    tier: supporting
+    repo: https://github.com/kiwix/kiwix-apple.git
   libzim:
     tier: supporting
     repo: https://github.com/openzim/libzim.git
